@@ -1,5 +1,5 @@
 /*
- * Activity 1.3.3
+ * Activity 1.3.2, 1.3.3
  */
 import java.util.Scanner;
 
