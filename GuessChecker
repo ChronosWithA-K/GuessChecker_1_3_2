@@ -32,16 +32,16 @@ public class GuessChecker
 
         /*your code here*/
         if (r1 == g1) {
-            hit += 1;
+            hit++;
         }
         if (r2 == g2) {
-            hit += 1;
+            hit++;
         }
         if (r3 == g3) {
-            hit += 1;
+            hit++;
         }
         if (r4 == g4) {
-            hit += 1;
+            hit++;
         }
 
         System.out.println("You got " + hits + " hits.")
