@@ -56,6 +56,7 @@ public class GuessChecker {
             }
 
             System.out.println("You got " + hits + " hits.");
+            System.out.println("You got " + nearHits + " near hits.");
             System.out.println("The number was " + targetStr + ".");
         }
     }
