@@ -8,7 +8,7 @@ public class GuessChecker
     public static void main(String[] args)
 	{
         /* Add any variables you will need throughout the program here. */
-        int hits;
+        int hits = 0;
     
         // Generate the random number
         String targetStr = makeCode();
@@ -32,20 +32,20 @@ public class GuessChecker
 
             /*your code here*/
             if (r1 == g1) {
-                hit++;
+                hits++;
             }
             if (r2 == g2) {
-                hit++;
+                hits++;
             }
             if (r3 == g3) {
-                hit++;
+                hits++;
             }
             if (r4 == g4) {
-                hit++;
+                hits++;
             }
 
-            System.out.println("You got " + hits + " hits.")
-            System.out.println("The number was " + target + ".");
+            System.out.println("You got " + hits + " hits.");
+            System.out.println("The number was " + targetStr + ".");
         }
 	}
  
